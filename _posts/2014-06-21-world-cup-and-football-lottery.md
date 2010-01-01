@@ -5,6 +5,7 @@ tags: worldcup lottery
 categories: distraction
 ---
 
+
 世界杯如期而至，对于那些出了校门的同学来说，这热闹的程度不亚于过年。足球是绿荫、啤酒、呐喊的最佳同义词，当然还有 ---- 彩票。
 
 <!--more-->
