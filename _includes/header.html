@@ -1,0 +1,14 @@
+		<div id="header">
+			<header id="title"> 
+				<h1><a href="{{site.url}}">{{site.title}}</a></h1>
+			</header>
+            <nav id="menu">
+                <span{% if page.read %} class="current"{% endif %}><a href="{{site.url}}/read">Read</a></span>
+                <span{% if page.read %} class="current"{% endif %}><a href="{{site.url}}/read">Movie</a></span>
+                <span{% if page.photo %} class="current"{% endif %}><a href="{{site.url}}/photo">Photo</a></span>
+                <span{% if page.read %} class="current"{% endif %}><a href="{{site.url}}/read">Categories</a></span>
+                <span{% if page.read %} class="current"{% endif %}><a href="{{site.url}}/read">Tags</a></span>
+                <span{% if page.about %} class="current"{% endif %}><a href="{{site.url}}/about">About</a></span>
+            </nav>
+			<div class="clear"></div>
+		</div>

@@ -1,0 +1,15 @@
+---
+title: read
+layout: page
+read: true
+---
+
+<div id="douban">
+</div>
+<script type="text/javascript" src="{{site.url}}/media/js/douban.api.js"></script>
+<script type="text/javascript">
+	var dbapi = new DoubanApi();
+	$(function(){
+		dbapi.show();
+	});
+</script>

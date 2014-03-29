@@ -1,0 +1,23 @@
+markdown: redcarpet
+url: http://bikethru.com
+pygments: true
+
+# presonal config
+title: BikeThru
+comments: disqus
+
+author:
+  name: popfeng 
+  nickname: popfeng 
+  email: popfeng@yeah.net
+  gmail: popfeng@yeah.net
+  qqmail: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=hu7vqPbp9uDj6OHG9-eo5enr
+  site: http://bikethru.com
+
+seo: 
+  keyword: 
+  description: 
+config:
+  js_dir:
+  img_dir:
+  css_dir:
