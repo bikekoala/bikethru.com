@@ -174,21 +174,23 @@ form,embed {
     color:#55bbee;
 }
 
-#menu {
+#nav {
     float:left;
     width:9em;
     margin-left:-12em;
-    font-size:1.1em;
+    font-size:1.3em;
     text-align:right;
     text-transform:uppercase;
     font-family: 'Electrolize',sans-serif;
 }
-#menu a{
+
+#nav a{
     display:block;
     padding:.7em 1em;
     color: black;
 }
-#menu a:hover{
+
+#nav a:hover{
     background-color:#ff0000;
     text-decoration:none;
     color:#f9f9f9;
