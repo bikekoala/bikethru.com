@@ -1,7 +1,6 @@
-#### home page
+#### Home page
 
 It's my blog([http://bikethru.com](http://bikethru.com))
-我的域名是：http://89ao.tk    欢迎过来与我交流。
 
 
 Markdown 语法说明 (简体中文版)
