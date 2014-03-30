@@ -1078,40 +1078,28 @@ ol.comment-list li .comment-reply a:hover,.respond .cancel-comment-reply a:hover
     padding-bottom: 30px !important;
     width: 775px !important;
 }
-.fir {
+.tag_list {
     float: left;
     position: relative;
-    width: 563px;
+    width: 523px;
 }
-.sec {
+
+.tag_list ul li a {
+    color: #3399cc;
+    padding-left: 1em;
+}
+
+.tag_cloud {
     float: right;
-    margin: 0 12px 0 0;
     position: relative;
+    margin: 0 12px 0 0;
     width: 240px;
 }
-.disk-left{
-    float: left;
-    position: relative;
-    width: 130px;
-    border-right: 1px solid #DDDDDD;
+
+.tag_cloud a:hover {
+    color:#333333;
 }
-.disk-rigth{
-    margin:  0 0 0 135px;
-    padding:  0 0 0 5px;
-}
-.disk-left ol li a,
-.disk-rigth ol li a{
-    font-size: 14px;
-    line-height: 180%;
-    text-decoration: none;
-}
-.disk-left ol li a{
-    padding: 15px 26px;
-    text-align: center;
-}
-.disk-rigth ol li a{
-    text-align: left;
-}
+
 .page-bg {
     background: none repeat scroll 0 0 #CC4F27;
     color: white;
@@ -1126,26 +1114,6 @@ ol.comment-list li .comment-reply a:hover,.respond .cancel-comment-reply a:hover
     right: 0;
     top: 169px;
     z-index: 2;
-}
-#s_d li{
-    margin-bottom: 1em;
-}
-#s_d li a{
-    line-height: 25px;
-    font-size: 14px;
-    color: #3399cc;
-}
-#s_d li img{
-    float: right;
-}
-#s_d li p b{
-    color: #C00;
-}
-#s_d li span{
-    color: green;
-}
-#s_d li.s_m a{
-    padding-right: 1em;
 }
 
 #header-comments {
@@ -1210,11 +1178,6 @@ ol.comment-list li .comment-reply a:hover,.respond .cancel-comment-reply a:hover
 
 .mod_lost_child {
     width: auto;
-}
-
-.fir ul li a {
-    color: #3399cc;
-    padding-left: 1em;
 }
 
 .douban-list ul li {
