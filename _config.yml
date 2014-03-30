@@ -4,7 +4,7 @@ pygments: true
 
 # presonal config
 title: BikeThru
-comments: disqus
+comments: duoshuo
 
 author:
   name: popfeng 
