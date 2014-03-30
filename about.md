@@ -1,7 +1,6 @@
 ---
 title: About
 layout: page
-about: true
 ---
 
 #### 我
