@@ -426,10 +426,6 @@ form,embed {
     border:solid 1px #ddd;
 }
 
-.post .con img {
-    max-width:600px;
-}
-
 .post .con .about-img{
     vertical-align: middle;
     margin-right: 5px;
@@ -1077,8 +1073,8 @@ ol.comment-list li .comment-reply a:hover,.respond .cancel-comment-reply a:hover
     border-radius: 3px 3px 3px 3px;
 }
 .page {
-    padding-bottom: 30px !important;
-    width: 775px !important;
+    padding-bottom: 10px !important;
+    margin-top: 5px !important;
 }
 .tag_list {
     float: left;
@@ -1164,11 +1160,11 @@ ol.comment-list li .comment-reply a:hover,.respond .cancel-comment-reply a:hover
     border:1px solid #ddd;
     color:#999;
 }
+
 .download a {
     color:#CC4F27 !important;
 }
-.download a:hover {
-}
+
 .download b,{
     padding:0px;
     margin:0px;
@@ -1176,10 +1172,6 @@ ol.comment-list li .comment-reply a:hover,.respond .cancel-comment-reply a:hover
     font-weight:bold;
     border-radius:0px;
     -moz-border-radius:0px;
-}
-
-.mod_lost_child {
-    width: auto;
 }
 
 .douban-list ul li {
