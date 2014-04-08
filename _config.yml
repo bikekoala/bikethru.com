@@ -1,22 +1,23 @@
-markdown: redcarpet
 url: http://bikethru.com
 pygments: true
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough"]
 
 # presonal config
 title: BikeThru
 comments: duoshuo
 
 author:
-  name: popfeng 
-  nickname: popfeng 
+  name: popfeng
+  nickname: 树袋大熊
   email: popfeng@yeah.net
-  gmail: popfeng@yeah.net
-  qqmail: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=hu7vqPbp9uDj6OHG9-eo5enr
   site: http://bikethru.com
 
 seo: 
-  keyword: 
-  description: 
+  keywords: popfeng 树袋大熊 看那些麦子
+  description: 树袋大熊的博客
+
 config:
   js_dir:
   img_dir:
