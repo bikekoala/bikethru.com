@@ -5,34 +5,27 @@ layout: page
 
 #### 我
 
-男，泛性恋，与80后一起长大的90后，非典型天蝎，间歇性神经病，职业coder，纯北漂，蜗居北京朝阳某处，想法挺多，成就没有，爱好篮球，看书，各种YY，最近在看[民主的细节][100]
+与80后一起长大的90后，非典型天蝎，间歇性神经病，职业coder，纯北漂，蜗居北京朝阳某处，想法挺多，成就没有，爱好骑行，看书，各种YY，最近在看 [阳光劫匪][1]
 
-#### 技术
+#### 要知道
 
-Linux, C/C++, PHP, Javascript, Lua, Python
+不读书是瞒不住人的。
 
-#### 创业
+或者，读书根本无用，但是充满了知道的快乐。
 
-储备中...
+总是不说话人会变得迟钝，总是不写东西人会变得肤浅。每当有所感悟，哪怕是只言片语都可以记录下来，只谈风花雪月。
 
-#### 博客
+#### 多年以后
 
-本站架构: Jekyll + Markdown + Github Pages  
+“遥远遥远的以后，会不会有人知道我，在这个寂寞的星球，曾这样的活过…. ”
 
-#### 联系
+#### case
 
-[github/likebeta][1]  
-[gurudigger/likebeta][2]  
-[email/likebeta][3]  
-[tqq/likebeta][4]  
-[weibo/likebeta][5]  
+>
+[知乎日报][2]  
+~~白纸年华~~  
+~~豆瓣红心电台~~  
 
+[1]: http://book.douban.com/subject/25737793 
 
-[1]: https://github.com/likebeta
-[2]: http://gurudigger.com/users/likebeta
-[3]: {{ site.author.qqmail }}
-[4]: http://t.qq.com/likebeta
-[5]: http://weibo.com/likebeta
-[100]: http://book.douban.com/subject/6977757/
-
-<div class="clear"></div>
+[2]: http://daily.bikethru.com
