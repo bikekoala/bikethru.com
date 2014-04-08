@@ -14,10 +14,7 @@ index: true
  <h2><a href="{{ site.url }}{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></h2>
  </header>
  <div class="con">
-   <p>
-   {{ post.content  | | split:'<!--more-->' | first | strip_html }}
-   <a class="more" href="{{ site.url }}{{ post.url }}">[continue]</a>
-   </p>
+     {{ post.content  || split:'<!--more-->' | first }}
  </div>
 </article>
 {% endfor %}
