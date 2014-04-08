@@ -6,5 +6,5 @@ if [ -n "$pid" ]; then
     kill -9 $pid
 fi
 # startup jekyll
-/usr/bin/jekyll serve --watch > /dev/null 2>&1 &
+/usr/bin/jekyll serve --watch >> /tmp/jekyll.log 2>&1 &
 echo $!
