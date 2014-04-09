@@ -2,6 +2,7 @@
 layout: post
 title: 可视化的排序过程
 tags: sort
+categories: php
 ---
 
 今天老汪问我有哪些排序方式，只对冒泡和快速有印象了  ，赶紧温习了数据结构，下面是冒泡排序和快速排序的PHP版本:

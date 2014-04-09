@@ -2,6 +2,7 @@
 layout: post
 title: Operate Multidimensional Arrays with PHP-2
 tags: array
+categories: php
 ---
 
 设计一简单的文件管理平台，允许上传文件夹，产品规划中需要对文件夹的深度有所限制。

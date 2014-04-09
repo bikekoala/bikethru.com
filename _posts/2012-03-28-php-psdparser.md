@@ -2,6 +2,7 @@
 layout: post
 title: php-psdparser
 tags: psd
+categories: php
 ---
 
 用php写了photoshop psd文件分析脚本，它可获得文件的层信息数据，目前尚且不支持输出图片，不过晓得Image Magick的朋友可以试一试这个命令：  

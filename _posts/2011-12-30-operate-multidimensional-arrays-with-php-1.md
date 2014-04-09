@@ -2,6 +2,7 @@
 layout: post
 title: Operate Multidimensional Arrays with PHP-1
 tags: array
+categories: php
 ---
 
 昨遇一通过key操作多维数组的问题，伤脑筋，如下

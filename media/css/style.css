@@ -353,27 +353,20 @@ form,embed {
     float:right;
 }
 
-.post .con .tags ul{
-    margin:0;
-}
-.tags{
+.tags {
     overflow:auto;
-    margin:12px 0 0 0;
+    line-height:20px;
 }
-.post .tags ul li{
-    float:left;
-    list-style-type:none;
-    margin-right:9px;
-    padding:0 3px 0 0;
-}
-.post .tags ul li a{
-    float:left;
-    height:19px;
-    line-height:17px;
-    color:white;
-    padding:0 4px 0 7px;
-    white-space:nowrap;
+
+.tags a {
+    color:#999999;
+    padding-right:9px;
     font-size:12px;
+    white-space:nowrap;
+}
+
+.tags a:hover {
+    color:#dd1144;
 }
 
 .bicolumn ul li {
