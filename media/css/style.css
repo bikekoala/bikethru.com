@@ -361,6 +361,7 @@ blockquote code{
 }
 
 #copyright {
+    font-size:12px;
     color:#AAA;
 }
 
@@ -543,7 +544,7 @@ blockquote code{
     padding-bottom: 10px !important;
     margin-top: 5px !important;
 }
-.page img{
+.page .pic{
     max-width:800px !important;
     padding:0px !important;
     box-shadow: 2px 2px 2px #000 !important;
