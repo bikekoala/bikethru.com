@@ -10,15 +10,15 @@
 			 </header>
 			 <div class="con">{{ content }}</div>
 			 <div class="prev_and_next">
-				{% if page.previous %}
-				<div><strong>上一篇： <a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></strong></div>
+				{% if page.next %}
+				<div><strong>下一篇： <a href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></strong></div>
 				{% else %}
 				<div><strong>下一篇： 木有</strong></div>
 				{% endif %}
-				{% if page.next %}
-				<div><strong>上一篇： <a href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></strong></div>
+                {% if page.previous %}
+				<div><strong>上一篇： <a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></strong></div>
 				{% else %}
-				<div><strong>下一篇： 木有</strong></div>
+				<div><strong>上一篇： 木有</strong></div>
 				{% endif %}
 			 </div>
 			 <div class="postunder"><div id="comments">{% include comments.html %}</div></div>
