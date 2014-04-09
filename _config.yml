@@ -1,4 +1,5 @@
 url: http://bikethru.com
+permalink: /:title.html
 pygments: true
 markdown: redcarpet
 redcarpet:
