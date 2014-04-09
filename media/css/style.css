@@ -39,7 +39,7 @@
 body {
     background:#ffffff;
     line-height:180%;
-    font-size:12px;
+    font-size:14px;
     font-family:'Microsoft Yahei',Verdana,Arial,Helvetica,sans-serif;
     text-align:center;
     color:#333;
@@ -420,71 +420,11 @@ blockquote code{
     position: relative;
     background-position:0 0;
 }
-
-input#author,input#mail,input#url,textarea#comment {
-    +height:13px;
-}
-input#author,input#mail,input#url {
-    color:#333;
-    font-size:12px;
-    padding:4px 10px 4px 40px;
-    line-height:12px;
-}
-
 .com {
     position:relative;
 }
-
 .com p {
     margin:0;
-}
-
-.addcomment {
-    width:26px;
-    height:25px;
-    background-position:0 -124px;
-    position:absolute;
-    left:0;
-}
-ol.comment-list {
-    position:relative;
-}
-ol.comment-list,ol.comment-list ol,div.comment-box,div.comment-box ol {
-    list-style:none;
-    margin:0;
-}
-
-
-ol.comment-list li {
-    overflow:hidden;
-    margin:0;
-    padding:10px 0 0 0;
-}
-
-div.comment-box {
-    overflow:hidden;
-    margin:10px 0 0;
-    overflow:auto;
-}
-
-ol.comment-list li .comment-reply {
-    float:right;
-}
-ol.comment-list li .comment-reply a {
-    font-size:11px;
-    border:none;
-    color:#aaa;
-}
-.comment-children {
-    padding-left:20px;/*64px*/
-}
-.comment-reply a {
-    margin-top:-200px;
-}
-.comment-meta {
-    padding:0 0 0 65px;
-    color:#999;
-    font-size:12px;
 }
 .submit {
     font-size:12px;
