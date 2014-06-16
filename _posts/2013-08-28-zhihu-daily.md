@@ -12,6 +12,7 @@ categories: design
 ![zhihu-daily][2]
 
     update:
+    2014-06-17  RSS Feed
     2014-03-29  图片缓存，反向代理
     2014-03-22  响应式布局
 
