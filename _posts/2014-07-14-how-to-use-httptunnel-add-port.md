@@ -5,11 +5,11 @@ tags: httptunnel linux php oray
 categories: web
 ---
 
-免费级的[花生壳][1]内网版只默认提供2个端口映射数，一只80用来做知乎日报，另一只22也只好用来做远程SSH了，用的好省。想扩充端口得先要上道，首先要将免费级的个人套餐升级到专业级，花费268元/年，稍后才是购买端口，这需要134/元/映射/年，价格很“公道”。总得来说，看完这篇博客，至少可以节省402元/年呢～
+免费级的 [花生壳][1] 内网版只默认提供2个端口映射数，一只80用来做知乎日报，另一只22也只好用来做远程SSH了，用的好省。想扩充端口得先要上道，首先要将免费级的个人套餐升级到专业级，花费268元/年，稍后才是购买端口，这需要134/元/映射/年，价格很“公道”。总得来说，看完这篇博客，至少可以节省402元/年呢～
 
 <!--more-->
 
-为什么非[httptunnel][2]不可呢?做一个端口转发(80 -> 22)不就能解决问题吗？  
+为什么非 [httptunnel][2] 不可呢?做一个端口转发(80 -> 22)不就能解决问题吗？  
 少年，我大黑花生壳才不会这么疏忽呢！首先，花生壳的80端口会将一切协议强制转换成http协议，而SSH的传输、认证和连接协议直接简历在TCP/IP上，此路不通；其次，做22 -> 22的端口转发虽然可以满足需求，但花生壳随机分配的端口号会让你抓狂，每次都得删除、建立并记录新端口号，同时，建立本映射的其他服务也得中断。最完美的方式是：同时运行。
 
 ### 1. 首先在服务器下载并编译httptunnel，启动服务端
@@ -22,7 +22,7 @@ cd httptunnel-3.0.5
 make
 make install
 ```
-将hts拷贝至系统目录，启动并在开机时运行  
+将hts拷贝至系统目录，启动并在开机时运行：  
 
 ```sh
 sudo cp hts /usr/local/bin
@@ -94,7 +94,7 @@ popfeng,www-data ALL = NOPASSWD: /sbin/iptables
 
 其实官方 [FAQ][3] 中建议在 [Cygwin][4] 环境下构建运行httptunnel，但我在windows系统CMD下也实现了完美运行。  
 
-首先，下载 [windows版二进制包][5]，解压到安装程序目录。  
+首先，下载 [WIN版二进制包][5]，解压到安装程序目录。  
 
 其次，写一个脚本将1、2步串联起来：
 
@@ -107,10 +107,10 @@ Set HTTP = CreateObject("Microsoft.XMLHTTP")
 HTTP.open "GET","http://look.bikethru.com/dashboard/boring.php",0  '端口转发api地址
 HTTP.send
 If Err Then
-WS.Popup "Can't open the url~"
-Err.Clear
+    WS.Popup "Can't open the url~"
+    Err.Clear
 Else
-WS.Popup HTTP.responseText,30
+    WS.Popup HTTP.responseText,30
 End If
 Set HTTP = Nothing
 ```
