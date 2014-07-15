@@ -100,11 +100,11 @@ popfeng,www-data ALL = NOPASSWD: /sbin/iptables
 
 ```vb.net
 Set WS = CreateObject("Wscript.Shell")
-WS.run "htc.exe -F 2222 look.bikethru.com:80",0  '服务器地址:端口
+WS.run "htc.exe -F 2222 bikethru.com:80",0  '服务器地址:端口
 
 On Error Resume Next
 Set HTTP = CreateObject("Microsoft.XMLHTTP")
-HTTP.open "GET","http://look.bikethru.com/dashboard/boring.php",0  '端口转发api地址
+HTTP.open "GET","http://bikethru.com/boring.php",0  '端口转发api地址
 HTTP.send
 If Err Then
     WS.Popup "Can't open the url~"
