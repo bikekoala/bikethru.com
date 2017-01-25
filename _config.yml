@@ -1,7 +1,7 @@
 url: http://bikethru.com
 permalink: /:title.html
 pygments: true
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["strikethrough"]
 
